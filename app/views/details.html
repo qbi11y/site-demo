@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col s12"><a href="#/">Back</a></div>
+</div>
+<div class="row">
+    <div class="col s12 m6">
+        <img ng-src="images/{{ image }}" class="responsive-img">
+        <div class="row">
+            <div class="col s3"><img ng-src="images/{{ image }}" class="thumb"></div>
+            <div class="col s3"><img ng-src="images/{{ image }}" class="thumb"></div>
+            <div class="col s3"><img ng-src="images/{{ image }}" class="thumb"></div>
+            <div class="col s3"><img ng-src="images/{{ image }}" class="thumb"></div>
+        </div>
+    </div>
+    <div class="col s12 m6">
+        <h4><strong>Garment Title</strong></h4>
+        <h4>$1,200 - $1,500</h4>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolore error, magni neque amet veritatis quas eligendi, recusandae, illo rerum quos esse beatae.</p>
+        <ul class="list-unstyled">
+            <li>Special Info 1</li>
+            <li>Special Info 2</li>
+            <li>Special Info 3</li>
+            <li>Special Info 4</li>
+            <li>Special Info 5</li>
+        </ul>
+        <hr>
+        <h5><strong>Select Size</strong></h5>
+        <div class="row">
+            <div class="col s2" ng-repeat="size in sizes"><div class="hover-underline">{{ size }}</div></div>
+        </div>
+        <hr>  
+        <div class="row">
+            <div class="col s12"><a class="waves-effect waves-light btn">Add To Cart</a></div>
+        </div>      
+    </div>
+</div>
