@@ -1,4 +1,4 @@
-# site-demo
+#Site Demo
 
 ##System Setup Instructions
 1. Open up your terminal (CMD+space and type in 'terminal')
