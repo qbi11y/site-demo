@@ -25,7 +25,7 @@ app.controller('ImageCtrl', ['$scope', '$state', function($scope, $state) {
             });
         } else {
             //place the images into the $scope array
-           if (msg.slice(split) == 'JPG' || msg.slice(split) == 'jpg' || msg.slice(split) == 'PNG' || msg.slice(split) == 'png') {
+           if (msg.slice(split) == 'JPG' || msg.slice(split) == 'jpg' || msg.slice(split) == 'JPEG' || msg.slice(split) == 'jpeg' || msg.slice(split) == 'PNG' || msg.slice(split) == 'png') {
                 console.log('added image to other section', msg);
                 $scope.$apply(function() {
                     $scope.images.push(msg);
